@@ -1,9 +1,12 @@
+import java.util.Scanner;
 public class Reversenumber {
     
     public static void main(String[] args) {
-        int num = 12345; // Example number to reverse
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number to reverse: ");
+        int num = scanner.nextInt();
         int reversedNum = 0;
-
+        
         while (num != 0) {
             int digit = num % 10; // Get the last digit
             reversedNum = reversedNum * 10 + digit; // Append digit to reversed number
