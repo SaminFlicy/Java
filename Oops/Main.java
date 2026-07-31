@@ -22,7 +22,7 @@ class Student{
 public class Main {
     
     public static void main(String[] args) {
-        Student s1 = new Student(101, "Alice", 20, "New York");
+        Student s1 = new Student(101, "YODU", 20, "New York");
         Student s2 = new Student(102, "Steve", 22, "Los Angeles");
         s1.display();
         s2.display();
